@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /form/
+---
+<p>
+   Messages here go to the Form inbox in the new Support demo
+</p>
+
+<form 
+  class="form-support"
+  method="POST"
+  name="fa-form-1"
+  action="https://webhook.frontapp.com/forms/f17350d4a97bbb3d8d6f/0CX0rll8bby9gNtVi8PoYvOYO7nam_tUt5bJqoomV15_lVStPUSQvOsadrttxVjflgOJwf_0DFxwG8Y2nobR8HDXuty8afEUmT3sVQsq4KrwElW-4Z2Gv2yD22Z4cw"
+  enctype="multipart/form-data"
+  accept-charset="utf-8"
+>
+  <div class="form-input">
+    <label for="name">Name</label>
+    <input type="text" name="name"/>
+  </div>
+
+  <div class="form-input" >
+    <label for="email">Email</label>
+    <input type="email" name="email"/>
+  </div>
+
+  <div>
+    <textarea name="body"></textarea>
+  </div>
+
+  <div class="form-input">
+    <input type="file" name="attachment"/>
+  </div>
+
+   <div id="html_element"></div>
+  <div>
+    <input type="submit" value="Send"/>
+  </div>
+</form> 
+
+</div>
